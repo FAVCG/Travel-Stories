@@ -1,0 +1,126 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.menu {
+  background-color: #000;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 240px;
+  left: -240px;
+  z-index: 1;
+}
+.menu .icon-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li a, .menu li a:visited {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+.icon-menu {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.main-img {
+  background-image: url("https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  height: 700px;
+
+}
+
+
+
+.main-img h1 {
+  font-family: 'Spartan', ;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  font-size: 55px;
+}
+
+
+
+.main-content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  margin-left: 800px;
+}
+
+
+.supporting-section {
+  padding: 80px 0;
+  text-align: center;
+  }
+
+.supporting-section h2 {
+    color: #000;
+    margin: 30px 0;
+}
+
+
+
+  .secondary-section {
+    background: url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1586&q=80") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+  }
+
+
+
+
+  .discover-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .discover-section h2 {
+    color: #000;
+    margin: 30px 0;
+  }
+
+
+  .footer {
+    background-color: #f9f9f9;
+    border-top: solid 1px #F5F5F5;
+    padding: 40px 0 30px 0;
+    text-align: center;
+  }
+
+  .footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #aaa;
+  }
