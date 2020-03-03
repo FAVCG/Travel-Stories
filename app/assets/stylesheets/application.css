@@ -143,6 +143,40 @@
 .about-second-section p{
     margin-top: 30px;
 }
+
+
+/*contact*/
+.contact-img {
+  background-image: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+  height: 700px;
+}
+.contact-content h1 {
+  font-family: 'Spartan', ;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  font-size: 55px;
+}
+.contact-section .contact-content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+.form-group label {
+    font-size: 16px;
+    color: #fff;
+}
+.btn-outline-success{
+    font-size: 16px;
+    padding: 12px 26px;
+  }
 /*footer*/
 
   .footer {
