@@ -13,6 +13,22 @@
 
   <body>
     <%= yield %>
+    <div class="menu">
+  <!-- style=" left:0px;" to see the menu -->
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+<img alt="Close" class="icon-close" src="/assets/close.png" width="24px">
+</div>
+
+ <div class="footer">
+<div class="container">
+ <p>Fabstar Project</p>
+</div>
+
+</div>
     <!--   This line includes all of your app’s JavaScript files, including jQuery, as new <script> elements. By placing this line just before the </body> tag, the page’s HTML will load first before the JavaScript applies to the HTML. -->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
