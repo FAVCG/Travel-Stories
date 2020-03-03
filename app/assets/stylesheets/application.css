@@ -177,6 +177,14 @@ form {
     font-size: 16px;
     padding: 12px 26px;
   }
+
+/*thanks */
+.thanks-section .contact-content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
 /*footer*/
 
   .footer {
