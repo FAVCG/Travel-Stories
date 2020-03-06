@@ -19,6 +19,6 @@ class SignupsController < ApplicationController
 
   private
    def signup_params
-    params.require(:firstname).permit(:email)
+    params.require(:firstname).permit(:email).permit
    end
 end
