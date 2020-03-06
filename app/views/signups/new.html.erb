@@ -9,7 +9,6 @@
                     <form accept-charset="UTF-8" action="/signups" class="new_signup" id="new_signup" method="post">
                         <div style="display:none">
                             <input name="utf8" type="hidden" value="✓">
-                            <input name="authenticity_token" type="hidden" value="ToG2M3uYVYSccm3Me63JsFGVgO7bZeO+OXFXQLHmylA=">
                         </div>
                         <div class="form-group">
                             <label>First name</label>
@@ -19,17 +18,8 @@
                             <label>Email</label>
                             <input class="form-control" id="signup_email" name="signup[email]" type="text">
                         </div>
-                        <p><a class="btn btn-outline-success" href="thanks">Join</a></p>
+                        <p><a class="btn btn-outline-success" href="/thanks">Join</a></p>
                     </form>
-               <!--      <%= form_for(@signup) do |f| %>
-                    <div class="form-group">
-                        <%= f.label :firstname %><br>
-                        <%= f.label :email %>
-                    </div>
-                    <div class="btn btn-outline-success">
-                        <%= f.submit "Join" %>
-                    </div>
-                    <% end %> -->
                 </div>
             </div>
         </div>
