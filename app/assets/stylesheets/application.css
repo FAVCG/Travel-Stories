@@ -63,7 +63,7 @@
 }
 
 .home-img h1 {
-  font-family: 'Spartan', ;
+  font-family: 'Spartan',!important ;
   color: #fff;
   font-weight: 100;
   margin-bottom: 30px;
@@ -115,7 +115,7 @@
 }
 
 .about-img h1 {
-  font-family: 'Spartan', ;
+  font-family: 'Spartan', !important;
   color: #fff;
   font-weight: 100;
   margin-bottom: 30px;
@@ -154,7 +154,7 @@
   height: 700px;
 }
 .contact-content h1 {
-  font-family: 'Spartan', ;
+  font-family: 'Spartan', !important;
   color: #fff;
   font-weight: 100;
   margin-bottom: 30px;
