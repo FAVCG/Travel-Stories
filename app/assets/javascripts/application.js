@@ -15,3 +15,17 @@
 //= require turbolinks
 //= require_tree .
 // here you will add the js to make menu on click display the menu and close.
+
+
+
+function myFunction() {
+  const menuOpenArr = document.getElementsByClassName("menu");
+  const menuCloseArr = document.getElementsByClassName("close");
+  if (menuOpenArr[0].style.left === '') {
+    menuOpenArr[0].style.left = 0;
+  } else {
+    menuOpenArr[0].style.left = '';
+  }
+}
+
+

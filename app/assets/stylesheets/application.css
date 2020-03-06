@@ -20,11 +20,13 @@
   height: 100%;
   position: fixed;
   top: 0;
+  display: block;
   width: 240px;
   left: -240px;
   z-index: 1;
 }
-.menu .icon-close {
+
+.menu .close {
   position: absolute;
   top: 30px;
   right: 30px;
