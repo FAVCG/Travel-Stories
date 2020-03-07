@@ -11,12 +11,12 @@
                             <input name="utf8" type="hidden" value="✓">
                         </div>
                         <div class="form-group">
-                            <label>First name</label>
+                            <label for="signup_firstname">First name</label>
                             <input class="form-control" id="signup_firstname" name="signup[firstname]" type="text">
                         </div>
                         <div class="form-group">
-                            <label>Email</label>
-                            <input class="form-control" id="signup_email" name="signup[email]" type="text">
+                            <label for="signup_email">Email</label>
+                            <input class="form-control" id="signup_email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" name="signup[email]" type="email" required data-error-msg="Email required in valid format!">
                         </div>
                         <p><a class="btn btn-outline-success" href="/thanks">Join</a></p>
                     </form>
